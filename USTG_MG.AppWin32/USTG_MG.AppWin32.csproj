@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B718CB53-1047-44EC-B1EE-93162951E4A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>USTG_MG.AppWin32</RootNamespace>
+    <AssemblyName>USTG_MG.AppWin32</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Militar.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Linq.Dynamic, Version=1.0.6132.35681, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.7\lib\net40\System.Linq.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Atividades\FaltasEAtrasos\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividades\FaltasEAtrasos\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atividades\FaltasEAtrasos\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividades\FaltasEAtrasos\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\AtividadesExtras\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\AtividadesExtras\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\AtividadesExtras\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\AtividadesExtras\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\Configuracoes\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\Configuracoes\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\Contingentes\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\Contingentes\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\Contingentes\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\Contingentes\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\Escolaridades\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\Escolaridades\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\Escolaridades\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\Escolaridades\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\Patentes\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\Patentes\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\Patentes\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\Patentes\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\Profissoes\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\Profissoes\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\Profissoes\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\Profissoes\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\Religioes\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\Religioes\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\Religioes\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\Religioes\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\Turmas\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\Turmas\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\Turmas\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\Turmas\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atividades\EscalasDeTrabalhos\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividades\EscalasDeTrabalhos\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atividades\EscalasDeTrabalhos\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividades\EscalasDeTrabalhos\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atividades\HorasExtras\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividades\HorasExtras\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atividades\HorasExtras\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividades\HorasExtras\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\Usuarios\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\Usuarios\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\Usuarios\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\Usuarios\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InicialLoggin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InicialLoggin.Designer.cs">
+      <DependentUpon>InicialLoggin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Atividades\JusticaDisciplina\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividades\JusticaDisciplina\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atividades\JusticaDisciplina\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividades\JusticaDisciplina\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atividades\TAFs\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividades\TAFs\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atividades\TAFs\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividades\TAFs\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util.cs" />
+    <EmbeddedResource Include="Atividades\FaltasEAtrasos\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atividades\FaltasEAtrasos\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\AtividadesExtras\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\AtividadesExtras\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\Configuracoes\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\Contingentes\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\Contingentes\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\Escolaridades\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\Escolaridades\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\Patentes\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\Patentes\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\Profissoes\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\Profissoes\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\Religioes\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\Religioes\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\Turmas\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\Turmas\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atividades\EscalasDeTrabalhos\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atividades\EscalasDeTrabalhos\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atividades\HorasExtras\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atividades\HorasExtras\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\Usuarios\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\Usuarios\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InicialLoggin.resx">
+      <DependentUpon>InicialLoggin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atividades\JusticaDisciplina\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atividades\JusticaDisciplina\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atividades\TAFs\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atividades\TAFs\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\USTG_MG.DataAccess\USTG_MG.DataAccess.csproj">
+      <Project>{072ae1a3-031a-4a58-89b2-a0a998d0907e}</Project>
+      <Name>USTG_MG.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\USTG_MG.Model\USTG_MG.Model.csproj">
+      <Project>{881226bf-784b-4562-bc0e-a7639992d69a}</Project>
+      <Name>USTG_MG.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\face_angel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto_default.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red_flag_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_flag_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shield_standby_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shield_caution_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list_add_002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-document_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_chart_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SqlServer.SqlLocalDB.11.1">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2012 Express LocalDB</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Militar.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

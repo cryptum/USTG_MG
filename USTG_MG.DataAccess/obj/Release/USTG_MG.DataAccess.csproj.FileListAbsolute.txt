@@ -1,0 +1,13 @@
+C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Release\USTG_MG.DataAccess.dll
+C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Release\USTG_MG.DataAccess.pdb
+C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Release\EntityFramework.dll
+C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Release\USTG_MG.Model.dll
+C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Release\USTG_MG.Model.pdb
+C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Release\EntityFramework.xml
+C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Release\USTG_MG.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Release\USTG_MG.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Release\USTG_MG.DataAccess.csproj.CopyComplete
+C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Release\USTG_MG.DataAccess.dll
+C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Release\USTG_MG.DataAccess.pdb
