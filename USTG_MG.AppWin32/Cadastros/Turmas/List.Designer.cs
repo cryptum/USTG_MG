@@ -54,23 +54,24 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.lblTotalItens});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 523);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 423);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(544, 25);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 10, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(408, 22);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(71, 20);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(58, 17);
             this.toolStripStatusLabel1.Text = "Tot. Itens:";
             // 
             // lblTotalItens
             // 
             this.lblTotalItens.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalItens.Name = "lblTotalItens";
-            this.lblTotalItens.Size = new System.Drawing.Size(26, 20);
+            this.lblTotalItens.Size = new System.Drawing.Size(20, 17);
             this.lblTotalItens.Text = "lbl";
             // 
             // toolStrip1
@@ -80,7 +81,7 @@
             this.btnNovo});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(544, 59);
+            this.toolStrip1.Size = new System.Drawing.Size(408, 54);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -90,7 +91,7 @@
             this.btnNovo.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnNovo.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnNovo.Name = "btnNovo";
-            this.btnNovo.Size = new System.Drawing.Size(49, 56);
+            this.btnNovo.Size = new System.Drawing.Size(40, 51);
             this.btnNovo.Text = "Novo";
             this.btnNovo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnNovo.Click += new System.EventHandler(this.btnNovoItem_Click);
@@ -112,12 +113,13 @@
             this.Id,
             this.Del});
             this.gridList.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridList.Location = new System.Drawing.Point(0, 59);
+            this.gridList.Location = new System.Drawing.Point(0, 54);
+            this.gridList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gridList.MultiSelect = false;
             this.gridList.Name = "gridList";
             this.gridList.ReadOnly = true;
             this.gridList.RowTemplate.Height = 24;
-            this.gridList.Size = new System.Drawing.Size(544, 464);
+            this.gridList.Size = new System.Drawing.Size(408, 369);
             this.gridList.TabIndex = 1;
             this.gridList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridList_CellContentClick);
             // 
@@ -125,9 +127,10 @@
             // 
             this.Edit.HeaderText = "Edit";
             this.Edit.Image = global::USTG_MG.AppWin32.Properties.Resources.edit_document_16x16;
+            this.Edit.MinimumWidth = 32;
             this.Edit.Name = "Edit";
             this.Edit.ReadOnly = true;
-            this.Edit.Width = 38;
+            this.Edit.Width = 32;
             // 
             // Ano
             // 
@@ -135,23 +138,25 @@
             this.Ano.HeaderText = "Ano";
             this.Ano.Name = "Ano";
             this.Ano.ReadOnly = true;
-            this.Ano.Width = 62;
+            this.Ano.Width = 51;
             // 
             // NomeComandante
             // 
             this.NomeComandante.DataPropertyName = "NomeComandante";
             this.NomeComandante.HeaderText = "NomeComandante";
+            this.NomeComandante.MinimumWidth = 130;
             this.NomeComandante.Name = "NomeComandante";
             this.NomeComandante.ReadOnly = true;
-            this.NomeComandante.Width = 154;
+            this.NomeComandante.Width = 130;
             // 
             // CadastradoPor
             // 
             this.CadastradoPor.DataPropertyName = "CadastradoPor";
             this.CadastradoPor.HeaderText = "CadastradoPor";
+            this.CadastradoPor.MinimumWidth = 120;
             this.CadastradoPor.Name = "CadastradoPor";
             this.CadastradoPor.ReadOnly = true;
-            this.CadastradoPor.Width = 132;
+            this.CadastradoPor.Width = 120;
             // 
             // DataCadastro
             // 
@@ -160,7 +165,7 @@
             this.DataCadastro.Name = "DataCadastro";
             this.DataCadastro.ReadOnly = true;
             this.DataCadastro.Visible = false;
-            this.DataCadastro.Width = 124;
+            this.DataCadastro.Width = 97;
             // 
             // AtualizadoPor
             // 
@@ -169,7 +174,7 @@
             this.AtualizadoPor.Name = "AtualizadoPor";
             this.AtualizadoPor.ReadOnly = true;
             this.AtualizadoPor.Visible = false;
-            this.AtualizadoPor.Width = 125;
+            this.AtualizadoPor.Width = 97;
             // 
             // DataAtualizacao
             // 
@@ -178,7 +183,7 @@
             this.DataAtualizacao.Name = "DataAtualizacao";
             this.DataAtualizacao.ReadOnly = true;
             this.DataAtualizacao.Visible = false;
-            this.DataAtualizacao.Width = 140;
+            this.DataAtualizacao.Width = 110;
             // 
             // Id
             // 
@@ -189,25 +194,27 @@
             this.Id.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.Id.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.Id.Visible = false;
-            this.Id.Width = 25;
+            this.Id.Width = 22;
             // 
             // Del
             // 
             this.Del.HeaderText = "Del";
             this.Del.Image = global::USTG_MG.AppWin32.Properties.Resources.trash_16x16;
+            this.Del.MinimumWidth = 32;
             this.Del.Name = "Del";
             this.Del.ReadOnly = true;
-            this.Del.Width = 35;
+            this.Del.Width = 32;
             // 
             // List
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(544, 548);
+            this.ClientSize = new System.Drawing.Size(408, 445);
             this.Controls.Add(this.gridList);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.statusStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "List";

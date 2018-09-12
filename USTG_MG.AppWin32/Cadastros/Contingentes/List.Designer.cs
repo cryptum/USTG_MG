@@ -68,23 +68,24 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.lblTotalItens});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 628);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 509);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1132, 25);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 10, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(849, 22);
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(67, 20);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(55, 17);
             this.toolStripStatusLabel1.Text = "Tot.Itens:";
             // 
             // lblTotalItens
             // 
             this.lblTotalItens.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.lblTotalItens.Name = "lblTotalItens";
-            this.lblTotalItens.Size = new System.Drawing.Size(26, 20);
+            this.lblTotalItens.Size = new System.Drawing.Size(20, 17);
             this.lblTotalItens.Text = "lbl";
             // 
             // toolStrip1
@@ -107,7 +108,7 @@
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.toolStrip1.Size = new System.Drawing.Size(1132, 59);
+            this.toolStrip1.Size = new System.Drawing.Size(849, 54);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -117,7 +118,7 @@
             this.btnNovo.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnNovo.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnNovo.Name = "btnNovo";
-            this.btnNovo.Size = new System.Drawing.Size(49, 56);
+            this.btnNovo.Size = new System.Drawing.Size(40, 51);
             this.btnNovo.Text = "Novo";
             this.btnNovo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
@@ -125,7 +126,7 @@
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 59);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 54);
             // 
             // btnAtraso
             // 
@@ -133,7 +134,7 @@
             this.btnAtraso.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnAtraso.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnAtraso.Name = "btnAtraso";
-            this.btnAtraso.Size = new System.Drawing.Size(56, 56);
+            this.btnAtraso.Size = new System.Drawing.Size(45, 51);
             this.btnAtraso.Text = "Atraso";
             this.btnAtraso.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnAtraso.Click += new System.EventHandler(this.btnAtraso_Click);
@@ -144,7 +145,7 @@
             this.btnFalta.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnFalta.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnFalta.Name = "btnFalta";
-            this.btnFalta.Size = new System.Drawing.Size(44, 56);
+            this.btnFalta.Size = new System.Drawing.Size(36, 51);
             this.btnFalta.Text = "Falta";
             this.btnFalta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnFalta.Click += new System.EventHandler(this.btnFalta_Click);
@@ -152,7 +153,7 @@
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 59);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 54);
             // 
             // btnElogio
             // 
@@ -160,7 +161,7 @@
             this.btnElogio.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnElogio.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnElogio.Name = "btnElogio";
-            this.btnElogio.Size = new System.Drawing.Size(60, 56);
+            this.btnElogio.Size = new System.Drawing.Size(47, 51);
             this.btnElogio.Text = "Eliogio";
             this.btnElogio.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnElogio.Click += new System.EventHandler(this.btnElogio_Click);
@@ -171,7 +172,7 @@
             this.btnPunicao.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnPunicao.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnPunicao.Name = "btnPunicao";
-            this.btnPunicao.Size = new System.Drawing.Size(65, 56);
+            this.btnPunicao.Size = new System.Drawing.Size(54, 51);
             this.btnPunicao.Text = "Punição";
             this.btnPunicao.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPunicao.Click += new System.EventHandler(this.btnPunicao_Click);
@@ -179,7 +180,7 @@
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 59);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 54);
             // 
             // btnHoraExtra
             // 
@@ -187,7 +188,7 @@
             this.btnHoraExtra.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnHoraExtra.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnHoraExtra.Name = "btnHoraExtra";
-            this.btnHoraExtra.Size = new System.Drawing.Size(64, 56);
+            this.btnHoraExtra.Size = new System.Drawing.Size(51, 51);
             this.btnHoraExtra.Text = "H. Extra";
             this.btnHoraExtra.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnHoraExtra.Click += new System.EventHandler(this.btnHoraExtra_Click);
@@ -195,18 +196,18 @@
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 59);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 54);
             // 
             // toolStripLabel2
             // 
             this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(50, 56);
+            this.toolStripLabel2.Size = new System.Drawing.Size(41, 51);
             this.toolStripLabel2.Text = "Busca:";
             // 
             // txtBusca
             // 
             this.txtBusca.Name = "txtBusca";
-            this.txtBusca.Size = new System.Drawing.Size(170, 59);
+            this.txtBusca.Size = new System.Drawing.Size(180, 54);
             this.txtBusca.TextChanged += new System.EventHandler(this.txtBusca_TextChanged);
             // 
             // toolStripLabel1
@@ -214,7 +215,7 @@
             this.toolStripLabel1.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.toolStripLabel1.ForeColor = System.Drawing.Color.Gray;
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(133, 56);
+            this.toolStripLabel1.Size = new System.Drawing.Size(110, 51);
             this.toolStripLabel1.Text = "(digite Nome ou RA)";
             // 
             // gridList
@@ -234,10 +235,11 @@
             this.Punicoes,
             this.HorasExtras});
             this.gridList.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridList.Location = new System.Drawing.Point(0, 59);
+            this.gridList.Location = new System.Drawing.Point(0, 54);
+            this.gridList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gridList.Name = "gridList";
             this.gridList.RowTemplate.Height = 24;
-            this.gridList.Size = new System.Drawing.Size(1132, 569);
+            this.gridList.Size = new System.Drawing.Size(849, 455);
             this.gridList.TabIndex = 2;
             this.gridList.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridList_CellDoubleClick);
             this.gridList.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.gridList_ColumnHeaderMouseClick);
@@ -321,13 +323,14 @@
             // 
             // List
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1132, 653);
+            this.ClientSize = new System.Drawing.Size(849, 531);
             this.Controls.Add(this.gridList);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.statusStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "List";
