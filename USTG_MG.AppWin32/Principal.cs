@@ -146,7 +146,7 @@ namespace USTG_MG.AppWin32
                 if (item is MdiClient)
                 {
                     var c = item as MdiClient;
-                    c.BackColor = Color.FromArgb(207, 231, 213);
+                    c.BackColor = Color.FromArgb(255, 255, 255);
                 }
             }
         }
