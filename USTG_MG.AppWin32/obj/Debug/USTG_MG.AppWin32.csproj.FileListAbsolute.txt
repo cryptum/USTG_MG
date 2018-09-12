@@ -46,3 +46,6 @@ C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.AppWin32\obj\Debug\USTG_MG.AppWin
 C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.AppWin32\obj\Debug\USTG_MG.AppWin32.csproj.CopyComplete
 C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.AppWin32\obj\Debug\USTG_MG.AppWin32.exe
 C:\Users\Edmilson\source\repos\USTG_MG\USTG_MG.AppWin32\obj\Debug\USTG_MG.AppWin32.pdb
+C:\Users\Danilo-NOTE\source\repos\USTG_MG\USTG_MG.AppWin32\obj\Debug\USTG_MG.AppWin32.csprojAssemblyReference.cache
+C:\Users\Danilo-NOTE\source\repos\USTG_MG\USTG_MG.AppWin32\obj\Debug\USTG_MG.AppWin32.exe
+C:\Users\Danilo-NOTE\source\repos\USTG_MG\USTG_MG.AppWin32\obj\Debug\USTG_MG.AppWin32.pdb
