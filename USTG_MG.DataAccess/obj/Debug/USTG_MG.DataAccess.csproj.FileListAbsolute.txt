@@ -24,3 +24,16 @@ C:\Users\Danilo-NOTE\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Debug\USTG_MG.D
 C:\Users\Danilo-NOTE\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.csproj.CopyComplete
 C:\Users\Danilo-NOTE\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.dll
 C:\Users\Danilo-NOTE\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.pdb
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Debug\USTG_MG.DataAccess.dll
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Debug\USTG_MG.DataAccess.pdb
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Debug\USTG_MG.Model.dll
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Debug\USTG_MG.Model.pdb
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.csprojAssemblyReference.cache
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.csproj.CopyComplete
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.dll
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.pdb

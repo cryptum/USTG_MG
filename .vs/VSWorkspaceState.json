@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\USTG_MG.AppWin32"
   ],
-  "SelectedNode": "\\packages",
+  "SelectedNode": "\\USTG_MG.AppWin32\\InicialLoggin.Designer.cs",
   "PreviewInSolutionExplorer": false
 }

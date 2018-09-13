@@ -19,3 +19,14 @@ C:\Users\Danilo-NOTE\source\repos\USTG_MG\USTG_MG.Model\obj\Debug\USTG_MG.Model.
 C:\Users\Danilo-NOTE\source\repos\USTG_MG\USTG_MG.Model\obj\Debug\USTG_MG.Model.csproj.CopyComplete
 C:\Users\Danilo-NOTE\source\repos\USTG_MG\USTG_MG.Model\obj\Debug\USTG_MG.Model.dll
 C:\Users\Danilo-NOTE\source\repos\USTG_MG\USTG_MG.Model\obj\Debug\USTG_MG.Model.pdb
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.Model\bin\Debug\USTG_MG.Model.dll
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.Model\bin\Debug\USTG_MG.Model.pdb
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.Model\bin\Debug\EntityFramework.dll
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.Model\bin\Debug\EntityFramework.xml
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.Model\obj\Debug\USTG_MG.Model.csprojAssemblyReference.cache
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.Model\obj\Debug\USTG_MG.Model.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.Model\obj\Debug\USTG_MG.Model.csproj.CopyComplete
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.Model\obj\Debug\USTG_MG.Model.dll
+C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.Model\obj\Debug\USTG_MG.Model.pdb
