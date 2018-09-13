@@ -439,6 +439,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Militar.ico" />
+    <None Include="Resources\baseline_cancel_black_36dp.png" />
+    <None Include="Resources\iconmonstr-gear-1-32.png" />
+    <None Include="Resources\baseline_supervised_user_circle_black_36dp.png" />
+    <None Include="Resources\iconmonstr-clipboard-6-240.png" />
+    <None Include="Resources\baseline_access_time_black_36dp.png" />
+    <None Include="Resources\Military-Man-32.png" />
+    <None Include="Resources\iconmonstr-gavel-1-32.png" />
+    <None Include="Resources\iconmonstr-clipboard-12-32.png" />
+    <None Include="Resources\iconmonstr-generation-11-32.png" />
+    <None Include="Resources\baseline_group_black_36dp.png" />
+    <None Include="Resources\iconmonstr-task-1-32.png" />
+    <None Include="Resources\iconmonstr-building-41-240.png" />
+    <None Include="Resources\baseline_work_black_36dp.png" />
+    <None Include="Resources\baseline_school_black_36dp.png" />
+    <None Include="Resources\icon_lock_alt.png" />
+    <None Include="Resources\ic_account_circle_black_36dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

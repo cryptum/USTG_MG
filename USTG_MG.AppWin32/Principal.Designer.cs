@@ -34,6 +34,7 @@
             this.escolaridades = new System.Windows.Forms.ToolStripMenuItem();
             this.profissões = new System.Windows.Forms.ToolStripMenuItem();
             this.religiões = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.atividadesExtras = new System.Windows.Forms.ToolStripMenuItem();
             this.Turmas = new System.Windows.Forms.ToolStripMenuItem();
             this.Patentes = new System.Windows.Forms.ToolStripMenuItem();
@@ -61,7 +62,6 @@
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblConfiguracaoTurmaAno = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.menuPrincipal.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -104,54 +104,59 @@
             // escolaridades
             // 
             this.escolaridades.BackColor = System.Drawing.SystemColors.Control;
-            this.escolaridades.Image = ((System.Drawing.Image)(resources.GetObject("escolaridades.Image")));
+            this.escolaridades.Image = global::USTG_MG.AppWin32.Properties.Resources.baseline_school_black_36dp;
             this.escolaridades.Name = "escolaridades";
-            this.escolaridades.Size = new System.Drawing.Size(216, 28);
+            this.escolaridades.Size = new System.Drawing.Size(207, 28);
             this.escolaridades.Text = "Escolaridades";
             this.escolaridades.Click += new System.EventHandler(this.escolaridades_Click);
             // 
             // profissões
             // 
             this.profissões.BackColor = System.Drawing.SystemColors.Control;
-            this.profissões.Image = ((System.Drawing.Image)(resources.GetObject("profissões.Image")));
+            this.profissões.Image = global::USTG_MG.AppWin32.Properties.Resources.baseline_work_black_36dp;
             this.profissões.Name = "profissões";
-            this.profissões.Size = new System.Drawing.Size(216, 28);
+            this.profissões.Size = new System.Drawing.Size(207, 28);
             this.profissões.Text = "Profissões";
             this.profissões.Click += new System.EventHandler(this.profissões_Click);
             // 
             // religiões
             // 
             this.religiões.BackColor = System.Drawing.SystemColors.Control;
-            this.religiões.Image = ((System.Drawing.Image)(resources.GetObject("religiões.Image")));
+            this.religiões.Image = global::USTG_MG.AppWin32.Properties.Resources.iconmonstr_building_41_240;
             this.religiões.Name = "religiões";
-            this.religiões.Size = new System.Drawing.Size(216, 28);
+            this.religiões.Size = new System.Drawing.Size(207, 28);
             this.religiões.Text = "Religiões";
             this.religiões.Click += new System.EventHandler(this.religiões_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(204, 6);
             // 
             // atividadesExtras
             // 
             this.atividadesExtras.BackColor = System.Drawing.SystemColors.Control;
-            this.atividadesExtras.Image = ((System.Drawing.Image)(resources.GetObject("atividadesExtras.Image")));
+            this.atividadesExtras.Image = global::USTG_MG.AppWin32.Properties.Resources.iconmonstr_task_1_32;
             this.atividadesExtras.Name = "atividadesExtras";
-            this.atividadesExtras.Size = new System.Drawing.Size(216, 28);
+            this.atividadesExtras.Size = new System.Drawing.Size(207, 28);
             this.atividadesExtras.Text = "Atividades Extras";
             this.atividadesExtras.Click += new System.EventHandler(this.atividadesExtras_Click);
             // 
             // Turmas
             // 
             this.Turmas.BackColor = System.Drawing.SystemColors.Control;
-            this.Turmas.Image = ((System.Drawing.Image)(resources.GetObject("Turmas.Image")));
+            this.Turmas.Image = global::USTG_MG.AppWin32.Properties.Resources.baseline_group_black_36dp;
             this.Turmas.Name = "Turmas";
-            this.Turmas.Size = new System.Drawing.Size(216, 28);
+            this.Turmas.Size = new System.Drawing.Size(207, 28);
             this.Turmas.Text = "Turmas";
             this.Turmas.Click += new System.EventHandler(this.Turmas_Click);
             // 
             // Patentes
             // 
             this.Patentes.BackColor = System.Drawing.SystemColors.Control;
-            this.Patentes.Image = ((System.Drawing.Image)(resources.GetObject("Patentes.Image")));
+            this.Patentes.Image = global::USTG_MG.AppWin32.Properties.Resources.iconmonstr_generation_11_32;
             this.Patentes.Name = "Patentes";
-            this.Patentes.Size = new System.Drawing.Size(216, 28);
+            this.Patentes.Size = new System.Drawing.Size(207, 28);
             this.Patentes.Text = "Patentes";
             this.Patentes.Click += new System.EventHandler(this.Patentes_Click);
             // 
@@ -160,7 +165,7 @@
             this.Contingente.BackColor = System.Drawing.SystemColors.Control;
             this.Contingente.Image = global::USTG_MG.AppWin32.Properties.Resources.users_16x16;
             this.Contingente.Name = "Contingente";
-            this.Contingente.Size = new System.Drawing.Size(216, 28);
+            this.Contingente.Size = new System.Drawing.Size(207, 28);
             this.Contingente.Text = "Contingente";
             this.Contingente.Click += new System.EventHandler(this.Contingente_Click);
             // 
@@ -182,7 +187,7 @@
             // 
             // faltasEAtrasos
             // 
-            this.faltasEAtrasos.Image = ((System.Drawing.Image)(resources.GetObject("faltasEAtrasos.Image")));
+            this.faltasEAtrasos.Image = global::USTG_MG.AppWin32.Properties.Resources.iconmonstr_clipboard_12_32;
             this.faltasEAtrasos.Name = "faltasEAtrasos";
             this.faltasEAtrasos.Size = new System.Drawing.Size(216, 28);
             this.faltasEAtrasos.Text = "Faltas e Atrasos";
@@ -190,7 +195,7 @@
             // 
             // justiçaEDisciplina
             // 
-            this.justiçaEDisciplina.Image = ((System.Drawing.Image)(resources.GetObject("justiçaEDisciplina.Image")));
+            this.justiçaEDisciplina.Image = global::USTG_MG.AppWin32.Properties.Resources.iconmonstr_gavel_1_32;
             this.justiçaEDisciplina.Name = "justiçaEDisciplina";
             this.justiçaEDisciplina.Size = new System.Drawing.Size(216, 28);
             this.justiçaEDisciplina.Text = "Justiça e Disciplina";
@@ -198,7 +203,7 @@
             // 
             // escalaDeServiço
             // 
-            this.escalaDeServiço.Image = ((System.Drawing.Image)(resources.GetObject("escalaDeServiço.Image")));
+            this.escalaDeServiço.Image = global::USTG_MG.AppWin32.Properties.Resources.Military_Man_32;
             this.escalaDeServiço.Name = "escalaDeServiço";
             this.escalaDeServiço.Size = new System.Drawing.Size(216, 28);
             this.escalaDeServiço.Text = "Escala de Serviço";
@@ -211,7 +216,7 @@
             // 
             // horasExtras
             // 
-            this.horasExtras.Image = ((System.Drawing.Image)(resources.GetObject("horasExtras.Image")));
+            this.horasExtras.Image = global::USTG_MG.AppWin32.Properties.Resources.baseline_access_time_black_36dp;
             this.horasExtras.Name = "horasExtras";
             this.horasExtras.Size = new System.Drawing.Size(216, 28);
             this.horasExtras.Text = "Horas Extras";
@@ -224,7 +229,7 @@
             // 
             // tAF
             // 
-            this.tAF.Image = ((System.Drawing.Image)(resources.GetObject("tAF.Image")));
+            this.tAF.Image = global::USTG_MG.AppWin32.Properties.Resources.iconmonstr_clipboard_6_240;
             this.tAF.Name = "tAF";
             this.tAF.Size = new System.Drawing.Size(216, 28);
             this.tAF.Text = "T.A.F";
@@ -243,7 +248,7 @@
             // 
             // btnUsuarios
             // 
-            this.btnUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("btnUsuarios.Image")));
+            this.btnUsuarios.Image = global::USTG_MG.AppWin32.Properties.Resources.baseline_supervised_user_circle_black_36dp;
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(216, 28);
             this.btnUsuarios.Text = "Usuários";
@@ -251,7 +256,7 @@
             // 
             // btnConfiguracoes
             // 
-            this.btnConfiguracoes.Image = ((System.Drawing.Image)(resources.GetObject("btnConfiguracoes.Image")));
+            this.btnConfiguracoes.Image = global::USTG_MG.AppWin32.Properties.Resources.iconmonstr_gear_1_32;
             this.btnConfiguracoes.Name = "btnConfiguracoes";
             this.btnConfiguracoes.Size = new System.Drawing.Size(216, 28);
             this.btnConfiguracoes.Text = "Configurações";
@@ -299,7 +304,7 @@
             // 
             // fecharTodas
             // 
-            this.fecharTodas.Image = ((System.Drawing.Image)(resources.GetObject("fecharTodas.Image")));
+            this.fecharTodas.Image = global::USTG_MG.AppWin32.Properties.Resources.baseline_cancel_black_36dp;
             this.fecharTodas.Name = "fecharTodas";
             this.fecharTodas.Size = new System.Drawing.Size(216, 28);
             this.fecharTodas.Text = "Fechar Todas";
@@ -352,11 +357,6 @@
             this.lblConfiguracaoTurmaAno.Name = "lblConfiguracaoTurmaAno";
             this.lblConfiguracaoTurmaAno.Size = new System.Drawing.Size(26, 20);
             this.lblConfiguracaoTurmaAno.Text = "lbl";
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(213, 6);
             // 
             // Principal
             // 
