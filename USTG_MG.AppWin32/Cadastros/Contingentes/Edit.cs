@@ -44,7 +44,7 @@ namespace USTG_MG.AppWin32.Cadastros.Contingentes
             dropTurma.DataSource = _repository.Turmas.ObterTodos();
             dropTurma.SelectedIndex = -1;
 
-            dropStatus.DataSource = Enum.GetNames(typeof(StatusDoMilitar)).Select(i => i.Replace("_"," "));
+            dropStatus.DataSource = Enum.GetNames(typeof(StatusDoMilitar)).Select(i => i.Replace("_"," ")).ToList();
             dropStatus.SelectedIndex = -1;
 
             dropProfissao.DataSource = _repository.Profissoes.ObterTodos();

@@ -13,6 +13,8 @@ namespace USTG_MG.AppWin32
             InitializeComponent();
             InicializarUsuarioLogado();
             txtNome.Focus();
+            txtNome.Text = "admin";
+            txtSenha.Text = "admin";
         }
 
         private void btnEntrar_Click(object sender, EventArgs e)
