@@ -66,5 +66,32 @@ namespace USTG_MG.DataAccess.Repositorios
 
             return query.ConvertToVM();            
         }
+
+        public List<ContingenteVM> ObterTodosAtivos(int turmaId)
+        {
+            var query = _context.Contingentes
+                                      .Include(p => p.Patente)
+                                      .Include(p => p.Turma)
+                                      .Where(p => p.TurmaId.Equals(turmaId)
+                                       && ((int)p.Status).Equals((int)StatusDoMilitar.Ativo))
+                                      .AsNoTracking()
+                                      .ToList();
+
+            return query.ConvertToVM();
+        }
+
+        public List<ContingenteVM> ObterTodosAtivos(int turmaId, int patenteId)
+        {
+            var query = _context.Contingentes
+                                      .Include(p => p.Patente)
+                                      .Include(p => p.Turma)
+                                      .Where(p => p.TurmaId.Equals(turmaId)
+                                            && ((int)p.Status).Equals((int)StatusDoMilitar.Ativo)
+                                            && p.PatenteId.Equals(patenteId))
+                                      .AsNoTracking()
+                                      .ToList();
+
+            return query.ConvertToVM();
+        }
     }
 }

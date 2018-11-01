@@ -29,6 +29,22 @@ namespace USTG_MG.DataAccess.Repositorios
             return query.ConvertToVM();
         }
 
+        public List<JusticaOuDisciplinaVM> ObterContigente(int contingenteId, Acao tipoAcao, DateTime data)
+        {
+
+            var query = _context.JusticasOuDisciplinas
+                                .Include(p => p.Contingente)
+                                .Include(p => p.Contingente.Patente)
+                                .Where(p => p.ContingenteId.Equals(contingenteId) 
+                                        && p.Data.Equals(data)
+                                        && ((int)p.Acao).Equals((int)tipoAcao))
+                                .AsNoTracking()
+                                .ToList();
+
+            return query.ConvertToVM();
+
+        }
+
         public List<JusticaOuDisciplinaVM> ObterPorNome(string nome, int turmaId)
         {
             var query = _context.JusticasOuDisciplinas

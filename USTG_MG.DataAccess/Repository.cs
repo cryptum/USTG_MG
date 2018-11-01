@@ -1,4 +1,6 @@
 ﻿using System;
+
+using System.Data.Entity.Validation;
 using USTG_MG.DataAccess.Contextos;
 using USTG_MG.DataAccess.Repositorios;
 using USTG_MG.Model;
@@ -22,6 +24,7 @@ namespace USTG_MG.DataAccess
         private IProfissaoRepository profissoes;
         private IUsuarioRepository usuarios;
         private IConfiguracaoRepository configuracoes;
+        private IServicoRepository servicos;
 
         public Repository()
         {
@@ -56,15 +59,31 @@ namespace USTG_MG.DataAccess
 
         public IUsuarioRepository Usuarios => usuarios ?? (usuarios = new UsuarioRepository(context));
 
+        public IServicoRepository Servicos => servicos ?? (servicos = new ServicoRepository(context));
+
         public void SaveChanges()
         {
             try
             {
                 context.SaveChanges();
             }
-            catch
+            catch (DbEntityValidationException e)
             {
-                throw new Exception("Operação não pode ser realizada!");
+                foreach (var eve in e.EntityValidationErrors)
+                {
+                    Console.WriteLine("Entidade do tipo \"{0}\" no estado \"{1}\" tem os seguintes erros de validação:",
+                        eve.Entry.Entity.GetType().Name, eve.Entry.State);
+                    foreach (var ve in eve.ValidationErrors)
+                    {
+                        Console.WriteLine("- Property: \"{0}\", Erro: \"{1}\"",
+                            ve.PropertyName, ve.ErrorMessage);
+                    }
+                }
+                throw;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Operação não pode ser realizada! " + ex.Message);
             }
             finally
             {
@@ -89,6 +108,7 @@ namespace USTG_MG.DataAccess
             profissoes = null;
             usuarios = null;
             configuracoes = null;
+            servicos = null;
             context = new USGTContext();
         }
     }

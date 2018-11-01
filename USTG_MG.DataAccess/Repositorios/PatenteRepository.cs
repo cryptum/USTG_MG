@@ -24,6 +24,5 @@ namespace USTG_MG.DataAccess.Repositorios
                            .AsNoTracking()
                            .ToList();
         }
-
     }
 }

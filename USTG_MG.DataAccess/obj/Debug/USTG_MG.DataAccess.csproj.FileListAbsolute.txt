@@ -37,3 +37,16 @@ C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataA
 C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.csproj.CopyComplete
 C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.dll
 C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.pdb
+C:\Git\ustg\USTG_MG.DataAccess\bin\Debug\USTG_MG.DataAccess.dll
+C:\Git\ustg\USTG_MG.DataAccess\bin\Debug\USTG_MG.DataAccess.pdb
+C:\Git\ustg\USTG_MG.DataAccess\bin\Debug\EntityFramework.dll
+C:\Git\ustg\USTG_MG.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\ustg\USTG_MG.DataAccess\bin\Debug\USTG_MG.Model.dll
+C:\Git\ustg\USTG_MG.DataAccess\bin\Debug\USTG_MG.Model.pdb
+C:\Git\ustg\USTG_MG.DataAccess\bin\Debug\EntityFramework.xml
+C:\Git\ustg\USTG_MG.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\ustg\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.csprojAssemblyReference.cache
+C:\Git\ustg\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.csproj.CoreCompileInputs.cache
+C:\Git\ustg\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.csproj.CopyComplete
+C:\Git\ustg\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.dll
+C:\Git\ustg\USTG_MG.DataAccess\obj\Debug\USTG_MG.DataAccess.pdb

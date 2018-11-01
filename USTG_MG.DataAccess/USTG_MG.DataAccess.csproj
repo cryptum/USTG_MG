@@ -63,6 +63,7 @@
     <Compile Include="Repositorios\PatenteRepository.cs" />
     <Compile Include="Repositorios\ProfissaoRepository.cs" />
     <Compile Include="Repositorios\ReligiaoRepository.cs" />
+    <Compile Include="Repositorios\ServicoRepository.cs" />
     <Compile Include="Repositorios\TAFRepository.cs" />
     <Compile Include="Repositorios\TurmaRepository.cs" />
     <Compile Include="Repositorios\UsuarioRepository.cs" />

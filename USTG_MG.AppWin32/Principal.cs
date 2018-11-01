@@ -110,7 +110,7 @@ namespace USTG_MG.AppWin32
 
         private void escalaDeServiço_Click(object sender, EventArgs e)
         {
-            var frm = new Atividades.EscalasDeTrabalhos.List();
+            var frm = new Cadastros.Servicos.Grid(repository);
             frm.MdiParent = this;
             frm.Show();
         }

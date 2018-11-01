@@ -8,11 +8,13 @@ namespace USTG_MG.Model
         {
             var novaLista = new List<ContingenteVM>();
 
-            foreach (var item in lista)
-            {
-                novaLista.Add(item.ConvertToVM());
+            if( !(lista is null) )
+            { 
+                foreach (var item in lista)
+                {
+                    novaLista.Add(item.ConvertToVM());
+                }
             }
-
             return novaLista;
         }
 
@@ -156,5 +158,32 @@ namespace USTG_MG.Model
 
 
         }
+
+        public static ServicoVM ConvertToVM(this Servico item)
+        {
+            return new ServicoVM()
+            {
+
+                Id = item.Id,
+                Tipo = item.Tipo,
+                FlagPermanencia = item.FlagPermanencia,
+                Data = item.Data,
+                Contigentes = MetodosDeExtensao.ConvertToVM(item.Contigentes),
+                CadastradoPor = item.CadastradoPor,
+                DataCadastro = item.DataCadastro
+            };
+        }
+
+        public static List<ServicoVM> ConvertToVM(this List<Servico> lista)
+        {
+            var novaLista = new List<ServicoVM>();
+            foreach (var item in lista)
+            {
+                novaLista.Add(item.ConvertToVM());
+            }
+
+            return novaLista;
+        }
+
     }
 }

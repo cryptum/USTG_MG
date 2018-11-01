@@ -48,7 +48,8 @@ namespace USTG_MG.Model
         public int Elogios { get; set; }
         public int Punicoes { get; set; }
         public int HorasExtras { get; set; }
-       
+
+        public ICollection<Servico> servicos { get; set; }       
 
         public override void Validar()
         {
@@ -132,6 +133,7 @@ namespace USTG_MG.Model
         List<ContingenteVM> ObterPorNome(string nome, int turmaId);
         List<ContingenteVM> ObterPorRA(string ra, int turmaId);
         List<ContingenteVM> ObterTodos(int turmaId);
-        
+        List<ContingenteVM> ObterTodosAtivos(int turmaId);
+        List<ContingenteVM> ObterTodosAtivos(int turmaId, int patenteId);
     }
 }

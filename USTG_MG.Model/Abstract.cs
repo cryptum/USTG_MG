@@ -86,6 +86,7 @@ namespace USTG_MG.Model
         IProfissaoRepository Profissoes { get; }
         IConfiguracaoRepository Configuracoes { get; }
         IUsuarioRepository Usuarios { get; }
+        IServicoRepository Servicos { get;  }
         void SaveChanges();
 
     }

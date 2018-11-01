@@ -60,6 +60,7 @@
     <Compile Include="Profissao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Religiao.cs" />
+    <Compile Include="Servico.cs" />
     <Compile Include="TAF.cs" />
     <Compile Include="Turma.cs" />
     <Compile Include="Usuario.cs" />

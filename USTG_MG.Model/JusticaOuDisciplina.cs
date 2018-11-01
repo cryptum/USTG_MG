@@ -36,6 +36,7 @@ namespace USTG_MG.Model
         List<JusticaOuDisciplinaVM> ObterTodos(int turmaId);
         List<JusticaOuDisciplinaVM> ObterPorRA(string ra, int turmaId);
         List<JusticaOuDisciplinaVM> ObterPorNome(string nome, int turmaId);
+        List<JusticaOuDisciplinaVM> ObterContigente(int contingenteId, Acao tipoAcao, DateTime data);
     }
 
     public enum Acao

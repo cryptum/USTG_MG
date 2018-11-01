@@ -30,3 +30,14 @@ C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.Model\obj\Debug\USTG_MG.Model.cspr
 C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.Model\obj\Debug\USTG_MG.Model.csproj.CopyComplete
 C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.Model\obj\Debug\USTG_MG.Model.dll
 C:\Users\Leandro\source\repos\USTG_MG\USTG_MG.Model\obj\Debug\USTG_MG.Model.pdb
+C:\Git\ustg\USTG_MG.Model\bin\Debug\USTG_MG.Model.dll
+C:\Git\ustg\USTG_MG.Model\bin\Debug\USTG_MG.Model.pdb
+C:\Git\ustg\USTG_MG.Model\bin\Debug\EntityFramework.dll
+C:\Git\ustg\USTG_MG.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\ustg\USTG_MG.Model\bin\Debug\EntityFramework.xml
+C:\Git\ustg\USTG_MG.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\ustg\USTG_MG.Model\obj\Debug\USTG_MG.Model.csprojAssemblyReference.cache
+C:\Git\ustg\USTG_MG.Model\obj\Debug\USTG_MG.Model.csproj.CoreCompileInputs.cache
+C:\Git\ustg\USTG_MG.Model\obj\Debug\USTG_MG.Model.csproj.CopyComplete
+C:\Git\ustg\USTG_MG.Model\obj\Debug\USTG_MG.Model.dll
+C:\Git\ustg\USTG_MG.Model\obj\Debug\USTG_MG.Model.pdb

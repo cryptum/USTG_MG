@@ -48,5 +48,6 @@ namespace USTG_MG.DataAccess.Contextos
         public DbSet<Turma> Turmas { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Configuracao> Configuracoes { get; set; }
+        public DbSet<Servico> Servicos { get; set; }
     }
 }
