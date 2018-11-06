@@ -47,6 +47,7 @@
             this.contingenteBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.btnGerarLista = new System.Windows.Forms.Button();
             this.btnInserirManualmente = new System.Windows.Forms.Button();
+            this.removerBtn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridContingentes)).BeginInit();
@@ -156,42 +157,49 @@
             this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
             this.idDataGridViewTextBoxColumn.HeaderText = "Id";
             this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            this.idDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // nomeDeGuerraDataGridViewTextBoxColumn
             // 
             this.nomeDeGuerraDataGridViewTextBoxColumn.DataPropertyName = "NomeDeGuerra";
             this.nomeDeGuerraDataGridViewTextBoxColumn.HeaderText = "NomeDeGuerra";
             this.nomeDeGuerraDataGridViewTextBoxColumn.Name = "nomeDeGuerraDataGridViewTextBoxColumn";
+            this.nomeDeGuerraDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // rADataGridViewTextBoxColumn
             // 
             this.rADataGridViewTextBoxColumn.DataPropertyName = "RA";
             this.rADataGridViewTextBoxColumn.HeaderText = "RA";
             this.rADataGridViewTextBoxColumn.Name = "rADataGridViewTextBoxColumn";
+            this.rADataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // statusDataGridViewTextBoxColumn
             // 
             this.statusDataGridViewTextBoxColumn.DataPropertyName = "Status";
             this.statusDataGridViewTextBoxColumn.HeaderText = "Status";
             this.statusDataGridViewTextBoxColumn.Name = "statusDataGridViewTextBoxColumn";
+            this.statusDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // patenteDataGridViewTextBoxColumn
             // 
             this.patenteDataGridViewTextBoxColumn.DataPropertyName = "Patente";
             this.patenteDataGridViewTextBoxColumn.HeaderText = "Patente";
             this.patenteDataGridViewTextBoxColumn.Name = "patenteDataGridViewTextBoxColumn";
+            this.patenteDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // elogiosDataGridViewTextBoxColumn
             // 
             this.elogiosDataGridViewTextBoxColumn.DataPropertyName = "Elogios";
             this.elogiosDataGridViewTextBoxColumn.HeaderText = "Elogios";
             this.elogiosDataGridViewTextBoxColumn.Name = "elogiosDataGridViewTextBoxColumn";
+            this.elogiosDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // punicoesDataGridViewTextBoxColumn
             // 
             this.punicoesDataGridViewTextBoxColumn.DataPropertyName = "Punicoes";
             this.punicoesDataGridViewTextBoxColumn.HeaderText = "Punicoes";
             this.punicoesDataGridViewTextBoxColumn.Name = "punicoesDataGridViewTextBoxColumn";
+            this.punicoesDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // contingenteBindingSource
             // 
@@ -217,11 +225,22 @@
             this.btnInserirManualmente.UseVisualStyleBackColor = true;
             this.btnInserirManualmente.Click += new System.EventHandler(this.btnInserirManualmente_Click);
             // 
+            // removerBtn
+            // 
+            this.removerBtn.Location = new System.Drawing.Point(436, 313);
+            this.removerBtn.Name = "removerBtn";
+            this.removerBtn.Size = new System.Drawing.Size(75, 23);
+            this.removerBtn.TabIndex = 7;
+            this.removerBtn.Text = "Remover";
+            this.removerBtn.UseVisualStyleBackColor = true;
+            this.removerBtn.Click += new System.EventHandler(this.removerBtn_Click);
+            // 
             // Edit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(773, 366);
+            this.Controls.Add(this.removerBtn);
             this.Controls.Add(this.btnInserirManualmente);
             this.Controls.Add(this.btnGerarLista);
             this.Controls.Add(this.groupBox2);
@@ -258,5 +277,6 @@
         private System.Windows.Forms.BindingSource contingenteBindingSource;
         private System.Windows.Forms.Button btnGerarLista;
         private System.Windows.Forms.Button btnInserirManualmente;
+        private System.Windows.Forms.Button removerBtn;
     }
 }

@@ -119,6 +119,7 @@ namespace USTG_MG.AppWin32.Cadastros.Servicos
             int _turmaId = Util.Configuracao == null ? 0 : Util.Configuracao.TurmaId;
             int tipoServico = (int)tipoServicoCombo.SelectedItem;
             DateTime dataAtualServico = dataServicoCampo.Value;
+            this.contigentesVM = null;
             this.contigentesVM = buscarListaContigente(_turmaId, tipoServico, dataAtualServico);
             dataGridContingentes.DataSource = this.contigentesVM;
             dataGridContingentes.AllowUserToDeleteRows = true;
@@ -140,7 +141,8 @@ namespace USTG_MG.AppWin32.Cadastros.Servicos
             //Validando o serviço
             if (!this.validarContingentes())
             {
-                MessageBox.Show("Não foi possível Salvar, verifique os dados");
+                MessageBox.Show("Não foi possível Salvar, verifique os dados", "Erro",
+                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }            
 
@@ -166,7 +168,19 @@ namespace USTG_MG.AppWin32.Cadastros.Servicos
                 if(buscarContingente.ShowDialog() == DialogResult.OK)
                 {
                     foreach (var item in buscarContingente.contingentes)
+                    {
+                        if (this.contigentesVM.Exists(x => x.Id == item.Id))
+                            continue;
+
+                        if(this.contigentesVM.Count == 4)
+                        {
+                            MessageBox.Show("Só é permitido serviço contendo até 4 contigentes", "Erro",
+                                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            break;
+                        }
+
                         this.contigentesVM.Add(item);
+                    }
                         
                     dataGridContingentes.DataSource = null;
                     dataGridContingentes.DataSource = this.contigentesVM;
@@ -179,13 +193,7 @@ namespace USTG_MG.AppWin32.Cadastros.Servicos
         {
             if (e.KeyCode == Keys.Delete)
             {
-                foreach (DataGridViewRow item in dataGridContingentes.SelectedRows)
-                {
-                    var contingente = (ContingenteVM)item.DataBoundItem;
-                    this.contigentesVM.Remove(contingente);
-                }
-                dataGridContingentes.DataSource = null;
-                dataGridContingentes.DataSource = this.contigentesVM;
+                this.removerBtn_Click(sender, e);
             }
         }
 
@@ -218,6 +226,18 @@ namespace USTG_MG.AppWin32.Cadastros.Servicos
 
 
             return true;
+        }
+
+        private void removerBtn_Click(object sender, EventArgs e)
+        {
+            foreach (DataGridViewRow item in dataGridContingentes.SelectedRows)
+            {
+                var contingente = (ContingenteVM)item.DataBoundItem;
+                this.contigentesVM.Remove(contingente);
+            }
+
+            dataGridContingentes.DataSource = null;
+            dataGridContingentes.DataSource = this.contigentesVM;
         }
     }
 }
