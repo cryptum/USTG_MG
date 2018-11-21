@@ -52,6 +52,9 @@
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.contingenteBindingSource)).BeginInit();
             this.SuspendLayout();
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.MaximizeBox = false;
             // 
             // panel1
             // 

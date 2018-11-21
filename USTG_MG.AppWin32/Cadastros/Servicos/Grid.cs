@@ -50,12 +50,15 @@ namespace USTG_MG.AppWin32.Cadastros.Servicos
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            Edit edit = new Edit(this.repository, this.repository.Servicos.ObterNovoOuPor(this.servico.Id))
+            if (this.servico != null)
             {
-                MdiParent = this.MdiParent
-            };
-            edit.Show();
-            this.Close();
+                Edit edit = new Edit(this.repository, this.repository.Servicos.ObterNovoOuPor(this.servico.Id))
+                {
+                    MdiParent = this.MdiParent
+                };
+                edit.Show();
+                this.Close();
+            }
         }
     }
 }
